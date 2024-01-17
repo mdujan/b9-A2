@@ -579,4 +579,17 @@ text-align: center;}
 .why-card p{
   padding-left: 3%;
 }
+/* footer..last part.... */
+.foot-back {
+  background-color: lightblue;
+  /* box-sizing:border-box ; */
+   /* width: 100%; */
+  /* margin-top: 15%;  */
+  width: 494px;  
+  margin-left: 2px;
+}
+.foot-head{
+  padding-left: 4%;
+  padding-right: 3%;
+}
 }
