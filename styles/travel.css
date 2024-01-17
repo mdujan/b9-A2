@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Lato:ital,wght@1,400;1,700&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;800&family=Open+Sans:wght@700;800&family=Work+Sans:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap');
+body {  
+  font-family: 'Mulish', sans-serif;
+                  }
 * {
   margin: 0;
   padding: 0;
@@ -59,7 +63,7 @@ nav {
   display: flex;
   align-items: center;
   width: 48%;
-  border: 2px solid mediumpurple;
+  
   margin: 10px 12%;
 }
 
@@ -68,8 +72,9 @@ nav {
 /* 1st part */
 .container-main {
   width: 80%;
-  border: 2px solid red;
-  margin: 0 auto;
+  margin-top:0;
+  margin-right: auto;
+  margin-left: auto;
   height: 450px;
   background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Group\ 13\ \(1\)\ \(1\).png');
   background-repeat: no-repeat;
@@ -78,16 +83,17 @@ nav {
 
 .container .heading {
   margin-top: 4%;
-  margin-bottom: 3%;
+  margin-bottom: 6%;
   color: #FFF;
   font-size: 64px;
   font-weight: 800;
+  
 }
 
 .container {
-  border: 2px solid goldenrod;
+  padding-bottom: 19%;
   width: 59%;
-  height: 267px;
+  height: 286px;
   position: absolute;
   text-align: center;
   left: 22%;
@@ -258,7 +264,28 @@ nav {
 .part5 {
   min-width: 420px;
 }
+/* sponsors style   */
+.sponsors{
+  text-align: center;
+}
 
+.sponsor-img-container{
+margin-top: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 20px;
+}
+.sponsor-img-container img{
+
+color: aqua;
+}
+.section-title{font-size: 42px;
+ text-align: center;
+ margin-top: 5%;
+ padding-bottom: 4%;
+ 
+}
 /* fooooteeerr.................... 
 */
 
@@ -592,4 +619,11 @@ text-align: center;}
   padding-left: 4%;
   padding-right: 3%;
 }
+.sponsor-img-container{
+      flex-direction: column;
+     }
+     .sponsors{
+      margin-left:12%;
+     }
+
 }
